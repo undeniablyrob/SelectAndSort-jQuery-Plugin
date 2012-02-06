@@ -1,0 +1,21 @@
+=================================================================================================== 
+			 _____      _           _                     _   _____            _    
+			/  ___|    | |         | |                   | | /  ___|          | |   
+			\ `--.  ___| | ___  ___| |_    __ _ _ __   __| | \ `--.  ___  _ __| |_  
+			 `--. \/ _ \ |/ _ \/ __| __|  / _` | '_ \ / _` |  `--. \/ _ \| '__| __| 
+			/\__/ /  __/ |  __/ (__| |_  | (_| | | | | (_| | /\__/ / (_) | |  | |_  
+			\____/ \___|_|\___|\___|\__|  \__,_|_| |_|\__,_| \____/ \___/|_|   \__| 
+                                                                        
+====================================================================================================
+
+Author : Robert Wilson
+Created: 2012-02-03
+License: Open GNU License
+
+
+-- DESCRIPTION --
+Select items with an auto-complete search, then allow user to drag-and-drop sort the selected items
+
+-- NOTES --
+This plugin is still in beta stage. It is not (yet) fully encapsulated in a jQuery function. 
+It is still tightly coupled to the markup (see source code JS for couplings).
