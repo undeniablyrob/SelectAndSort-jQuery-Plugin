@@ -1,0 +1,19 @@
+
+/*====================================
+               SORTABLE
+======================================*/
+.sortable { list-style-type: none; margin: 0; padding: 0; cursor: move; }
+.sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.1em; height: 18px; }
+.sortable li span { position: absolute; margin-left: -1.3em; }
+
+
+/*====================================
+               AUTOCOMPLETE
+======================================*/
+.ui-autocomplete
+{
+    max-height: 250px;
+    overflow: hidden;  /* prevents scrollbars and forces page size to increase */
+    /*overflow-x: hidden;  /* prevents horizontal scrollbar */
+    /*padding-right: 20px; /* add padding to account for vertical scrollbar */
+}
